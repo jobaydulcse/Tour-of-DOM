@@ -21,12 +21,38 @@
         <li>Safayat</li>
         <li>Bonobash</li>
         <li>Jalali</li>
+        <li>mar haba</li>
+        <li>kuddus</li>
+        <li>pori</li>
       </ul>
     </main>
     <script>
-      console.log("hello from javascript");
-      console.log("hello from javascript");
-      console.log("hello from javascript");
+      //   console.log("hello from javascript");
+      //   console.log("hello from javascript");
+      //   console.log("hello from javascript");
+
+      const student = {
+        name: "jobaydul",
+        id: 12121031,
+        study: function (subject) {
+          console.log("Studying SUbject:  ", subject);
+        },
+      };
+
+      //   document.getElementsByTagName;
+
+      const liCollection = document.getElementsByTagName("li");
+      console.log(liCollection);
+      for (const li of liCollection) {
+        // console.log(li);
+        console.log(li.innerText);
+      }
+
+      //   All H1 tags
+      const allHeadings = document.getElementsByTagName("h1");
+      for (const heading of allHeadings) {
+        console.log(heading.innerText);
+      }
     </script>
     <script src="js/hello.js"></script>
   </body>

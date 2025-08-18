@@ -1,2 +1,2 @@
-console.log("Alada file of js");
-console.log(document);
+// console.log("Alada file of js");
+// console.log(document);
